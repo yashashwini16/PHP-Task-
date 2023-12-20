@@ -1,31 +1,13 @@
-How to run the User Registration & Login and User Management System With admin panel Project
+PHP INTERNSHIP TASK COMPLETED
 
-1. Download the  zip file
+* Design a fully functional flow of a typical user registration and login page.
 
-2. Extract the file and copy loginsystem folder
+* It should have a responsive UI.
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+* The registration page should record user data such as, Name, Email ID, Password, Address, Phone number.
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+* The login page should validate the user based on Email and Password used while registering.
 
-5. Create a database with name loginsystem
+* Use the PHP-MySQLi (Object-oriented or procedural style is upto you) library for interfacing with the Database backend.
 
-6. Import loginsystem.sql file(given inside the zip package in SQL file folder)
-
-7.Run the script http://localhost/loginsystem (frontend)
-
-8. For admin Panel http://localhost/loginsystem/admin
-
-Credential for admin panel :
-
-Username: admin
-Password: Test@12345
-
-Credential for user panel : 
-
-Username: johndoe12@gamil.com
-Password : Test@12345
-
-For more details visit this url https://phpgurukul.com/user-registration-login-and-user-management-system-with-admin-panel/
-
-You can also drop a mail at phpgurukulteam@gmail.com
+* Use MySQL database server to persist the data.
